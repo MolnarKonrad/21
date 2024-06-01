@@ -23,11 +23,14 @@ public class Main {
     }
 
     private static void jatekeleje() {
-        jElso2Lapja();
+        konzolraIr("A játékos lapjai: ");
+        Elso2Lap();
+              
     }
 
-    private static void jElso2Lapja() {
+    private static void Elso2Lap() {
         lapok(lapokJ,2);
+        lapok(lapokG,2);
     }
     
     private static int[] lapok(int[] tomb, int db) {
@@ -36,5 +39,4 @@ public class Main {
         }
         return tomb;
     }
-    
 }
